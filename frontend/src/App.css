@@ -40,3 +40,30 @@
 .read-the-docs {
   color: #888;
 }
+
+body {
+  margin: 0;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  background: #fffbe9;
+  color: #222;
+}
+.main-nav {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  background: #fff8e1;
+  padding: 1rem 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  margin-bottom: 2rem;
+}
+.main-nav a {
+  color: #a67c00;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+.main-nav a:hover {
+  color: #f7c873;
+}
