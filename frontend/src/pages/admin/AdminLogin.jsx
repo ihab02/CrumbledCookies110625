@@ -12,7 +12,7 @@ export default function AdminLogin() {
     e.preventDefault();
     setError("");
     try {
-      const res = await fetch("/api/admin/login", {
+      const res = await fetch("/node-red/admin/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ username, password })

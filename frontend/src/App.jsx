@@ -7,7 +7,7 @@ import "./App.css";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/react">
       <nav className="main-nav">
         <Link to="/">Home</Link>
         <Link to="/flavors">Flavors</Link>
